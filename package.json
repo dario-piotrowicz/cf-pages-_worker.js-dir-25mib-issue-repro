@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "",
+    "build": "node scripts/build.mjs",
     "dev": "wrangler pages dev ./public",
     "deploy": "wrangler pages deploy ./public"
   },
